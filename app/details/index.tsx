@@ -9,7 +9,7 @@ export default function DetailsScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Details Screen</Text>
-      <Button title="Go Back" onPress={() => router.back()} />
+      <Button title="Go Back" onPress={() => router.push("/scanner")} />
     </SafeAreaView>
   );
 }
